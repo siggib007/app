@@ -10,7 +10,7 @@ projects:
       dev:
         MYSQL_HOST: "mysql"
         MYSQL_USER: "root"
-        MYSQL_PASSWORD: "secret"
-        MYSQL_DB: "todos"
+        MYSQL_PASSWORD: "${MYSQL_ROOT_PASSWORD}"
+        MYSQL_DB: "${MYSQL_DATABASE}"
         MYSQL_DATABASE: "todos"
-        MYSQL_ROOT_PASSWORD: "secret"
+        MYSQL_ROOT_PASSWORD: "mlDl6t9DcWbYiPREF4SLHcxdkMnNoVu1"
