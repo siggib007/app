@@ -1,0 +1,16 @@
+projects:
+  - name: "Docker101"
+    environments:
+      - name: "Development"
+        slug: "dev"
+        configs:
+          - slug: "dev"
+          - slug: "dev_docker"
+    secrets:
+      dev:
+        MYSQL_HOST: "mysql"
+        MYSQL_USER: "root"
+        MYSQL_PASSWORD: "secret"
+        MYSQL_DB: "todos"
+        MYSQL_DATABASE: "todos"
+        MYSQL_ROOT_PASSWORD: "secret"
